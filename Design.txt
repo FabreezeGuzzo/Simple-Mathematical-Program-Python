@@ -1,0 +1,10 @@
+1) How long it would take for me to fill up my bathtub if there is already four gallons of water in the bathtub.
+2) Antonello brother
+3) https://homedecorbliss.com/how-long-does-to-fill-bathtub/#:~:text=What%20is%20this%3F,-Report%20Ad&text=The%20average%20bathtub%20is%20about,if%20you%20have%20decent%20piping.
+4)
+bath_amount = int(input("How much water does the tub hold?"))
+water_already_in_tub = int(input("How many gallons are already in the tub?"))
+needed_water = bath_amount - water_already_in_tub
+gallons_per_min = float(input("How many gallons per min?"))
+time_need_to_fill_tub = needed_water / gallons_per_min
+print("Amount of time it would take to fill up the tub", time_need_to_fill_tub)
